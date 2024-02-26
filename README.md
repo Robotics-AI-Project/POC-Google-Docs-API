@@ -14,9 +14,9 @@ This is a simple proof of concept to read a Google Docs document using the Googl
 
 1. Create a new project in the [Google Cloud Console](https://console.cloud.google.com/).
 
-2. Enable the Google Docs API for the project.
+2. Enable the Google Docs API for the project. [(Click here to see how to enable an API in GCP)](https://support.google.com/googleapi/answer/6158841?hl=en)
 
-3. Create a new service account for the project. (No need to configure any roles since google apps (docs, sheets, etc) are not supported by the IAM system.)
+3. Create a [new service account](https://cloud.google.com/iam/docs/service-accounts-create) for the project. (No need to configure any roles since google apps (docs, sheets, etc) are not supported by the IAM system.)
 
 4. Download the service account credentials as a JSON file.
 
